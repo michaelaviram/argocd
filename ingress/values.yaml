@@ -2,7 +2,6 @@ name: "ingress"
 className: "nginx"
 
 firstService:
-  host: "weatherapp.local"
   name: "weatherapp-service"
   portNumber: "8989"
 
