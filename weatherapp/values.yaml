@@ -3,7 +3,7 @@ deployment:
   replicas: "1"
   image: "michaelaviram/app:latest"
   containerPort: "8989"
-  configmap: "blue"
+  configmap: "green"
   configmapKey: "BG_COLOR"
 
 
