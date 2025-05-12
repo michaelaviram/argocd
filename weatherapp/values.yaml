@@ -1,7 +1,7 @@
 deployment:
   name: "weatherapp"
   replicas: "1"
-  image: "michaelaviram/app:latest"
+  image: "michaelaviram/app:20"
   containerPort: "8989"
   configmap: "green"
   configmapKey: "BG_COLOR"
