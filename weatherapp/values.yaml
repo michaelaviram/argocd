@@ -5,7 +5,17 @@ deployment:
   containerPort: "8989"
   configmap: "blue"
   configmapKey: "BG_COLOR"
+
 service:
   name: "weatherapp-service"
   port: "8989"
   targetPort: "8989"
+
+configmaps:
+  first:
+    name: "blue"
+    color: "green"
+  second:
+    name: "green"
+    color: "green"
+
