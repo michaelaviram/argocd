@@ -1,5 +1,5 @@
 name: "ingress"
-className: "nginx"
+className: "alb"
 
 firstService:
   name: "weatherapp-service"
