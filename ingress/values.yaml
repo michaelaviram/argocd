@@ -1,7 +1,0 @@
-name: "ingress"
-className: "alb"
-
-firstService:
-  name: "weatherapp-service"
-  portNumber: "8989"
-

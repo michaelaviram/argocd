@@ -1,7 +1,7 @@
 deployment:
   name: "weatherapp"
   replicas: "1"
-  image: "michaelaviram/app:20"
+  image: "michaelaviram/app"
   containerPort: "8989"
   configmap: "blue"
   configmapKey: "BG_COLOR"
@@ -19,3 +19,6 @@ configmaps:
     name: "green"
     color: "green"
 
+ingress:
+  name: "weatherpp-ingress"
+  className: "alb"
